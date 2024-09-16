@@ -23,3 +23,37 @@
      white-space: nowrap;
 
 }
+
+.logo {
+     width: 115px;
+     height: 115px;
+     padding-top: 9.5px;
+     padding-bottom: 9.5px;
+     padding-right: 10px;
+     padding-left: 10px;
+
+}
+
+.left-header-content {
+     margin-left: 62px;
+     margin-top: 40px;
+     align-items: center;
+}
+
+.heading {
+     justify-content: center;
+     align-items: center;
+     font-family: "Montserrat bold", sans-serif;
+     letter-spacing: 12px;
+     line-height: 134.4px;
+     font-size: 112px;
+     font-weight: 800px;
+}
+
+.burger-icon {
+     font-size: 40px;
+     position: absolute;
+     top: 58px;
+     left: 1724px;
+     right: 156px;
+}

@@ -22,7 +22,7 @@ const data = [
   {
     id: 3,
     img: Img3,
-    title: "Army Green Active Short Sleeve",
+    title: "Army Black Active Full Sleeve",
     pricing: "67.55",
   },
   {
@@ -34,8 +34,8 @@ const data = [
   {
     id: 5,
     img: Img5,
-    title: "Army Green Active Short Sleeve",
-    pricing: "34.77",
+    title: "Army Black Active Full Sleeve",
+    pricing: "67.55",
   },
 ];
 
@@ -44,7 +44,7 @@ const Card = () => {
     <div className="card-container">
       {data.map(({ id, img, title, pricing }) => {
         return (
-          <div key={id} className="each-card ">
+          <div key={id} className="each-card">
             <div className="image-container w-full h-[397px]">
               <img
                 className="w-full h-full object-cover rounded-xl"

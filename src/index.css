@@ -18,6 +18,13 @@
 }
 
 @font-face {
+  font-family: 'Montserrat bold';
+  src: url('./assets/Font/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'inter';
   src: url('./assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
   font-weight: normal;
