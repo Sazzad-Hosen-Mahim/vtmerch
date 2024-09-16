@@ -1,0 +1,25 @@
+.header-section {
+     position: relative;
+     height: 940px;
+     width: 1920px;
+     background: #EA2127;
+     z-index: 2;
+     overflow: hidden;
+}
+
+.background-text {
+     font-weight: 400;
+     font-size: 140px;
+     line-height: 168px;
+     letter-spacing: 1px;
+     align-items: center;
+     z-index: -1;
+     position: absolute;
+     top: 320px;
+     left: 150px;
+     color: #FFFFFF;
+     opacity: 40%;
+     font-family: "Act_Of_Rejection", sans-serif;
+     white-space: nowrap;
+
+}

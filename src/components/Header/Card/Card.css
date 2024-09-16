@@ -1,0 +1,24 @@
+.card-container {
+     position: absolute;
+     left: 187px;
+     top: 411px;
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     gap: 24px;
+}
+
+.each-card {
+     height: 468px;
+     width: 357px;
+
+}
+
+.image-container {
+     object-fit: contain;
+     height: 397px;
+     width: 357px;
+}
+
+.content {
+     font-family: "inter";
+}
