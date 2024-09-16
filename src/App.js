@@ -1,5 +1,5 @@
 import "./App.css";
-import BuyOneGetOne from "./components/BuyOneGetOne/BuyOneGetOne";
+import BestSelling from "./components/BestSelling/BestSelling";
 import Header from "./components/Header/Header";
 import SignedCollection from "./components/SignedCollection/SignedCollection";
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <BuyOneGetOne></BuyOneGetOne>
+      <BestSelling></BestSelling>
       <SignedCollection></SignedCollection>
     </div>
   );

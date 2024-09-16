@@ -1,0 +1,26 @@
+.best-selling-section {
+     height: 877px;
+     width: 1920px;
+     background: #F6F5F5;
+}
+
+.best-selling-content {
+     width: 1618px;
+     height: 674px;
+     top: 101px;
+     left: 148px;
+}
+
+.paragraph {
+     font-family: "Montserrat medium bold";
+     font-weight: 600px;
+     font-size: 70px;
+     line-height: 84px;
+     letter-spacing: 0.5px;
+}
+
+.transparent-text {
+     font-family: "Montserrat medium bold", sans-serif;
+     color: transparent;
+     -webkit-text-stroke: 1px #222222;
+}

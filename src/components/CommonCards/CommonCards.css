@@ -1,0 +1,41 @@
+.best-selling-card-container {
+     position: absolute;
+     top: 216px;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 16px;
+}
+
+.single-card {
+     background-color: white;
+     width: 386.5px;
+     height: 476px;
+     border-radius: 12px;
+
+}
+
+.best-selling-image-container {
+     object-fit: contain;
+}
+
+.best-selling-card-image {
+     padding: 16px;
+}
+
+.best-selling-content {
+     padding-left: 16px;
+}
+
+.best-selling-title {
+     font-family: "inter";
+     margin-bottom: 16px;
+     font-size: 18px;
+     font-weight: 600px;
+     line-height: 19.2px;
+     letter-spacing: 0.5%;
+}
+
+.best-selling-pricing {
+     font-family: "inter";
+     font-size: 20px;
+}
