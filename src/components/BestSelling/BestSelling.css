@@ -13,7 +13,7 @@
 
 .paragraph {
      font-family: "Montserrat medium bold";
-     font-weight: 600px;
+     font-weight: 600;
      font-size: 70px;
      line-height: 84px;
      letter-spacing: 0.5px;
@@ -23,4 +23,9 @@
      font-family: "Montserrat medium bold", sans-serif;
      color: transparent;
      -webkit-text-stroke: 1px #222222;
+}
+
+.best-selling-card-container {
+     padding-top: 20px;
+
 }

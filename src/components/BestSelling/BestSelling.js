@@ -12,7 +12,7 @@ const BestSelling = () => {
             ON <span className="transparent-text">BEST SELLING PRODUCTS</span>
           </p>
         </div>
-        <div>
+        <div className="best-selling-card-container">
           <CommonCards></CommonCards>
         </div>
       </div>
