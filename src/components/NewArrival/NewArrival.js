@@ -7,7 +7,7 @@ const NewArrival = () => {
     <div className="new-arrival-container">
       <div className="new-arrival-all-content">
         <div className="new-arrival-text-container">
-          <h1>NEW ARRIVAL</h1>
+          <h1 className="uppercase">new arrival</h1>
         </div>
         <div className="new-arrival-cards-container">
           <CommonCards></CommonCards>

@@ -2,5 +2,37 @@
      width: 1920px;
      height: 577px;
      background: linear-gradient(90deg, #EC3339 0%, #BB1117 100%);
+     position: relative;
 
+}
+
+.mission-text-container {}
+
+.quotes-image {
+     position: absolute;
+     top: 54px;
+     left: 90px;
+     z-index: 1;
+}
+
+.mission-para {
+     color: white;
+     font-family: "Montserrat bold", sans-serif;
+     font-size: 48px;
+     line-height: 67.6px;
+     letter-spacing: 0.5%;
+     z-index: 2;
+     position: absolute;
+     top: 204px;
+     left: 150px;
+}
+
+.mission-image-container {}
+
+.mission-image {
+     position: absolute;
+     right: 76px;
+     top: -148px;
+     width: 571px;
+     height: 725px;
 }

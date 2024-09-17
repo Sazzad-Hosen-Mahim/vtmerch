@@ -11,13 +11,13 @@ const SignedCollection = () => {
       <div className="signed-section-container">
         <div className="article-container relative">
           <div className="signed-heading-text">
-            <p className="white-para">PATRICK BET-DAVID'S </p>
-            <h1 className="red-para">
-              SIGNED <br />
-              COLLECTION
+            <p className="white-para uppercase">Patrick bet-david's </p>
+            <h1 className="red-para uppercase">
+              signed <br />
+              collection
             </h1>
-            <button className="signed-button">
-              SHOP NOW{" "}
+            <button className="signed-button uppercase">
+              shop now{" "}
               <span className="inline-block ml-3 align-middle">
                 <FaArrowRightLong />
               </span>
