@@ -4,3 +4,81 @@
      background: #111111;
 
 }
+
+.signed-section-container {
+     padding-top: 101px;
+     margin-left: 150px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+}
+
+.article-container {
+     padding-top: 22px;
+     /* position: absolute; */
+
+}
+
+.white-para {
+     color: white;
+     font-family: "Montserrat medium bold", sans-serif;
+     font-size: 49px;
+     line-height: 58.8px;
+     letter-spacing: 0.5px;
+}
+
+.red-para {
+     margin-top: 16px;
+     margin-bottom: 48px;
+     background: linear-gradient(180deg, #DE2A2F 0%, #EF5256 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+     font-family: "Montserrat bold";
+     font-size: 70px;
+     line-height: 84px;
+     letter-spacing: 0.5px;
+
+}
+
+.signed-heading-text {
+     width: 569px;
+     height: 351px;
+}
+
+.signed-button {
+     font-family: "inter bold";
+     width: 168px;
+     height: 52px;
+     background: #ffffff;
+     padding: 16px, 32px, 16px, 32px;
+     border-radius: 12px;
+     gap: 12px;
+}
+
+.signed-button:hover {
+     color: white;
+     background: linear-gradient(180deg, #ee383e 0%, #EF5256 100%);
+}
+
+/* .signature {
+    
+} */
+
+.signature-image-container {
+     width: 798px;
+     height: 588px;
+     display: flex;
+}
+
+.book-image {
+     object-fit: cover;
+     width: 350px;
+     height: 560px;
+}
+
+.book-image2 {
+     object-fit: fill;
+     width: 404px;
+     height: 518px;
+}
