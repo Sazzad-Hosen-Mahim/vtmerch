@@ -11,11 +11,33 @@
      width: 386.5px;
      height: 476px;
      border-radius: 12px;
+     transition: transform 0.4s ease, box-shadow 0.4s ease;
+     position: relative;
+     overflow: hidden;
+     border-radius: 15px;
 
+}
+
+.single-card:hover {
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .best-selling-image-container {
      object-fit: contain;
+     overflow: hidden;
+     border-radius: inherit;
+}
+
+.single-card img {
+     transition: transform 0.4s ease;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.single-card:hover img {
+     transform: scale(1);
 }
 
 .best-selling-card-image {
