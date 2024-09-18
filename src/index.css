@@ -32,6 +32,20 @@
 }
 
 @font-face {
+  font-family: 'Montserrat italic';
+  src: url('./assets/Font/static/Montserrat-SemiBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat extra light italic';
+  src: url('./assets/Font/static/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'inter';
   src: url('./assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
   font-weight: normal;

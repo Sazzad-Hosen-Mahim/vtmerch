@@ -2,5 +2,57 @@
      width: 1920px;
      height: 779px;
      background: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 
+     padding: 100px 161px;
+}
+
+.future-container {
+     width: 1618px;
+     height: 579px;
+}
+
+.first-future-div {
+     padding: 36.5px 0;
+}
+
+.future-text {
+     width: 354px;
+     height: 506px;
+}
+
+.future-looks-bright {
+     font-family: "Act_Of_Rejection";
+     font-size: 100px;
+     line-height: 120px;
+     letter-spacing: 0.5px;
+}
+
+.purple-gold {
+     font-family: "Montserrat italic";
+     font-size: 50px;
+     line-height: 60px;
+     letter-spacing: 0.5px;
+     margin-top: 24px;
+}
+
+.and {
+     font-family: "Montserrat extra light italic";
+     font-size: 50px;
+     line-height: 60px;
+     letter-spacing: 0.5px;
+}
+
+.future-image-card {
+     width: 496px;
+     height: 579px;
+}
+
+.future-image {
+     width: 496px;
+     height: 496px;
+     border-radius: 12px;
+     margin-bottom: 24px;
 }
