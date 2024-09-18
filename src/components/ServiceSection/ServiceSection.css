@@ -2,5 +2,12 @@
      width: 1920px;
      height: 352px;
      background: linear-gradient(90deg, #EC3339 0%, #BB1117 100%);
+     padding-top: 100px;
+     padding-left: 160px;
 
+}
+
+.service-section-container {
+     width: 1595px;
+     height: 152px;
 }
