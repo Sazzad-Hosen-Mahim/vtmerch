@@ -9,7 +9,6 @@
 .cart-section-content {
      width: 1394px;
      height: 659px;
-     border: 2px solid;
 }
 
 .products-of-month {
@@ -25,4 +24,109 @@
      margin-top: 40px;
      width: 1394px;
      height: 527px;
+}
+
+.cart-content-text {
+     width: 699px;
+}
+
+.cart-content-heading {
+     font-family: "Montserrat bold";
+     font-weight: bold;
+     letter-spacing: 0.5%;
+     font-size: 30px;
+     line-height: 38.4px;
+     width: 693px;
+     height: 38px;
+     margin-bottom: 12px;
+}
+
+.cart-content-para {
+     font-family: "inter regular";
+     font-size: 16px;
+     opacity: 80%;
+     color: #060606CC;
+     line-height: 24px;
+     margin-bottom: 24px;
+}
+
+.cart-content-price {
+     font-family: "Montserrat medium bold";
+     font-size: 24px;
+     line-height: 28.8px;
+     color: #272312;
+     margin-bottom: 24px;
+}
+
+.cart-content-size {
+     font-family: "inter bold";
+     size: 20px;
+}
+
+.first-button-size {
+     opacity: 90%;
+     border: 0.5px solid gray;
+     padding: 8px 16px;
+     margin-left: 10px;
+}
+
+.button-size {
+     opacity: 90%;
+     border: 0.5px solid gray;
+     padding: 8px 16px;
+}
+
+.first-button-size:hover {
+     background-color: black;
+     color: white;
+}
+
+.button-size:hover {
+     background-color: black;
+     color: white;
+
+}
+
+.cart-quantity-text {
+     font-family: "inter bold";
+     size: 20px;
+}
+
+.add-to-cart {
+     font-family: "inter";
+     padding: 16px 32px;
+     border: 1px solid;
+     border-radius: 12px;
+     margin-right: 24px;
+     width: 335px;
+
+}
+
+.buy-it-now {
+     font-family: "inter";
+     background-color: black;
+     color: white;
+     padding: 16px 32px;
+     border: 1px solid;
+     border-radius: 12px;
+     margin-right: 24px;
+     width: 335px;
+}
+
+.add-to-cart:hover {
+     background: linear-gradient(90deg, #EC3339 30%, #BB1117 100%);
+     color: white;
+     border: none
+}
+
+.buy-it-now:hover {
+     background: linear-gradient(90deg, #ff3d43 0%, #BB1117 100%);
+     color: black;
+     border: none
+}
+
+.share {
+     font-family: "inter bold";
+     width: 188px;
+     font-size: 20px;
 }

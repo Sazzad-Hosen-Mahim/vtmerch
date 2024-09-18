@@ -5,6 +5,7 @@ import Future from "./components/Future/Future";
 import Header from "./components/Header/Header";
 import Mission from "./components/Mission/Mission";
 import NewArrival from "./components/NewArrival/NewArrival";
+import ServiceSection from "./components/ServiceSection/ServiceSection";
 import ShopCollection from "./components/ShopCollection/ShopCollection";
 import SignedCollection from "./components/SignedCollection/SignedCollection";
 import WhatWeBelieve from "./components/WhatWeBelieve/WhatWeBelieve";
@@ -21,6 +22,7 @@ function App() {
       <Future></Future>
       <WhatWeBelieve></WhatWeBelieve>
       <CartPage></CartPage>
+      <ServiceSection></ServiceSection>
     </div>
   );
 }

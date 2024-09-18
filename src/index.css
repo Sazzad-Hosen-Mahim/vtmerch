@@ -10,6 +10,15 @@
   font-style: normal;
 }
 
+/* montserrat 200 italic */
+@font-face {
+  font-family: 'Montserrat extra light italic';
+  src: url('./assets/Font/static/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* montserrat 400 */
 @font-face {
   font-family: 'Montserrat';
   src: url('./assets/Font/static/Montserrat-Regular.ttf') format('truetype');
@@ -17,21 +26,13 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Montserrat bold';
-  src: url('./assets/Font/static/Montserrat-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 /* montserrat 500 */
 @font-face {
   font-family: 'Montserrat medium';
   src: url('./assets/Font/static/Montserrat-Medium.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
 }
 
+/* montserrat 600 */
 @font-face {
   font-family: 'Montserrat medium bold';
   src: url('./assets/Font/static/Montserrat-SemiBold.ttf') format('truetype');
@@ -39,6 +40,7 @@
   font-style: normal;
 }
 
+/* montserrat 600 italic */
 @font-face {
   font-family: 'Montserrat italic';
   src: url('./assets/Font/static/Montserrat-SemiBoldItalic.ttf') format('truetype');
@@ -46,9 +48,10 @@
   font-style: normal;
 }
 
+/* montserrat 700  */
 @font-face {
-  font-family: 'Montserrat extra light italic';
-  src: url('./assets/Font/static/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  font-family: 'Montserrat bold';
+  src: url('./assets/Font/static/Montserrat-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -60,6 +63,23 @@
   font-style: normal;
 }
 
+/* inter 400 */
+@font-face {
+  font-family: 'inter regular';
+  src: url('./assets/Font/Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* inter 500 */
+@font-face {
+  font-family: 'inter medium';
+  src: url('./assets/Font/Inter/static/Inter_24pt-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* inter 700 */
 @font-face {
   font-family: 'inter bold';
   src: url('./assets/Font/Inter/static/Inter_18pt-Bold.ttf') format('truetype');
@@ -67,12 +87,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'inter medium';
-  src: url('./assets/Font/Inter/static/Inter_18pt-Medium.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 * {
   margin: 0;
