@@ -1,0 +1,93 @@
+.believe-section {
+     width: 1920px;
+     height: 1056px;
+     background: linear-gradient(97.11deg, #3B3B3B 3.61%, #000000 63.2%);
+     position: relative;
+     overflow: hidden;
+}
+
+.believe-logo-container {
+     position: absolute;
+     width: 826px;
+     height: 826px;
+     left: 1169px;
+     opacity: 10%;
+     position: relative;
+}
+
+.believe-logo {
+     filter: invert(19%) sepia(67%) saturate(5272%) hue-rotate(348deg) brightness(93%) contrast(96%);
+     position: absolute;
+     width: 571px;
+     height: 706px;
+     top: 57px;
+     left: 127px;
+}
+
+.believe-content-container {
+     width: 1435px;
+     height: 741px;
+     position: relative;
+     top: 148px;
+     left: 150px;
+     position: absolute;
+}
+
+.img-car {
+     position: absolute;
+     top: 89px;
+     width: 641px;
+     height: 652px;
+     border-radius: 12px;
+     object-fit: cover;
+     z-index: 1;
+}
+
+.believe-text {
+     position: absolute;
+     width: 997px;
+     height: 168px;
+     top: 18px;
+     left: 312px;
+     font-family: "Act_Of_Rejection";
+     font-size: 140px;
+     font-weight: 400;
+     color: white;
+     z-index: 2;
+}
+
+.believe-text-content {
+     position: absolute;
+     top: 198px;
+     left: 692px;
+     width: 753px;
+     height: 567px;
+
+}
+
+.believe-text-container {
+     height: 84px;
+}
+
+.believe-heading {
+     font-family: "Montserrat medium";
+     font-size: 32px;
+     line-height: 38.4px;
+     letter-spacing: 0.5%;
+}
+
+.believe-para {
+     font-family: "inter medium";
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: 0.5%;
+}
+
+.chess-queen {
+     position: absolute;
+     left: 1754px;
+     top: 662px;
+     height: 435px;
+     width: 158px;
+
+}

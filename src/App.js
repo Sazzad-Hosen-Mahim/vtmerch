@@ -6,6 +6,7 @@ import Mission from "./components/Mission/Mission";
 import NewArrival from "./components/NewArrival/NewArrival";
 import ShopCollection from "./components/ShopCollection/ShopCollection";
 import SignedCollection from "./components/SignedCollection/SignedCollection";
+import WhatWeBelieve from "./components/WhatWeBelieve/WhatWeBelieve";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ShopCollection></ShopCollection>
       <NewArrival></NewArrival>
       <Future></Future>
+      <WhatWeBelieve></WhatWeBelieve>
     </div>
   );
 }
