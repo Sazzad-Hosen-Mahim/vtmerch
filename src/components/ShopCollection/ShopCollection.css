@@ -120,6 +120,7 @@
 }
 
 .bottle-image {
+     position: relative;
      margin-left: 44px;
      margin-top: 175px;
      justify-content: center;
@@ -165,4 +166,13 @@
           url('../../assets/img/img\ \(9\).jpeg');
      background-size: cover;
      background-position: center;
+}
+
+.common-shop-heading {
+     position: absolute;
+     left: 20px;
+     font-family: "Montserrat medium bold";
+     font-size: 32px;
+     line-height: 38.4px;
+     letter-spacing: 0.5px;
 }

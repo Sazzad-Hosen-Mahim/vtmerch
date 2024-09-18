@@ -16,29 +16,49 @@ const ShopCollection = () => {
             <span className="stroke-text">Collection</span>
           </h1>
           <button className="view-all uppercase">
-            view all{" "}
+            view all
             <span className="inline-block ml-3 align-middle">
               <FaArrowRightLong />
             </span>
           </button>
           <div className="bag">
             <div className="bag-image">
-              <h1 className="uppercase ">The boss collection</h1>
+              <h1 className="uppercase common-shop-heading top-[436px]">
+                The boss collection
+              </h1>
             </div>
           </div>
           <div className="caps-books">
-            <div className="caps-image"></div>
-            <div className="books-image"></div>
+            <div className="caps-image">
+              <h1 className="uppercase common-shop-heading top-[195px]">
+                head <br />
+                wear
+              </h1>
+            </div>
+            <div className="books-image">
+              <h1 className="uppercase common-shop-heading top-[535px]">
+                value books
+              </h1>
+            </div>
           </div>
         </div>
         <div className="bottle-image-container">
-          <div className="bottle-image"></div>
+          <div className="bottle-image">
+            <h1 className="uppercase common-shop-heading top-[639px]">
+              Accessories
+            </h1>
+          </div>
         </div>
         <div className="t-shirt-container ">
-          <div className="t-shirt-one"></div>
-          <div className="t-shirt-two"></div>
+          <div className="t-shirt-one">
+            <h1 className="uppercase common-shop-heading top-[331px]">
+              The Future Looks Bright Collection
+            </h1>
+          </div>
+          <div className="t-shirt-two">
+            <h1 className="uppercase common-shop-heading top-[367px]">Tops</h1>
+          </div>
         </div>
-        {/* <div className="bg-blue-200 col-span-1">hh</div> */}
       </div>
     </section>
   );
