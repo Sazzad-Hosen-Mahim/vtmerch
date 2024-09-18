@@ -1,0 +1,44 @@
+.all-image-div {
+     position: relative;
+}
+
+.up-arrow {
+     position: absolute;
+     top: 10px;
+     left: 35px;
+}
+
+.down-arrow {
+     position: absolute;
+     top: 480px;
+     left: 35px;
+}
+
+.column-images {
+     border: 2px solid blueviolet;
+     height: 436px;
+}
+
+.primary-image {
+     position: relative;
+     margin-left: 15px;
+}
+
+.primary-image:hover~.zoomed-image {
+     display: block;
+}
+
+.zoomed-image {
+     /* background-color: white; */
+     display: none;
+     position: absolute;
+     top: 20%;
+     left: 90%;
+     width: 300px;
+     height: 300px;
+     border: 1px solid #ccc;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     z-index: 100;
+}

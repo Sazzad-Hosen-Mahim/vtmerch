@@ -52,7 +52,7 @@ const WhatWeBelieve = () => {
                     <span className="opacity-80">{description}</span>
                   </p>
                 </div>
-                <hr className=""></hr>
+                <hr className="opacity-25"></hr>
               </div>
             );
           })}

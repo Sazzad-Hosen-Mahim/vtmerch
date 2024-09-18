@@ -1,0 +1,28 @@
+.cart-section {
+     width: 1920px;
+     height: 859px;
+     background: #F6F5F5;
+     padding-top: 100px;
+     padding-left: 263px;
+}
+
+.cart-section-content {
+     width: 1394px;
+     height: 659px;
+     border: 2px solid;
+}
+
+.products-of-month {
+     font-family: "Montserrat medium bold";
+     font-size: 68px;
+     line-height: 84px;
+     letter-spacing: 0.5px;
+     align-items: center;
+     margin: 7px 215px;
+}
+
+.cart-content {
+     margin-top: 40px;
+     width: 1394px;
+     height: 527px;
+}

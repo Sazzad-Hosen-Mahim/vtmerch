@@ -1,5 +1,6 @@
 import "./App.css";
 import BestSelling from "./components/BestSelling/BestSelling";
+import CartPage from "./components/CartPage/CartPage";
 import Future from "./components/Future/Future";
 import Header from "./components/Header/Header";
 import Mission from "./components/Mission/Mission";
@@ -19,6 +20,7 @@ function App() {
       <NewArrival></NewArrival>
       <Future></Future>
       <WhatWeBelieve></WhatWeBelieve>
+      <CartPage></CartPage>
     </div>
   );
 }
