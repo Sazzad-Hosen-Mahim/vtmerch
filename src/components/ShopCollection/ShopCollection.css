@@ -1,6 +1,168 @@
-.shop-collection-container {
+.shop-collection-section {
      width: 1920px;
      height: 1169px;
      background: linear-gradient(180deg, #2C2A2A 0%, #000000 100%);
+     position: relative;
 
+}
+
+.shop-logo {
+     position: relative;
+     width: 640px;
+     height: 792px;
+     top: 24px;
+     left: 17px;
+     opacity: 3%;
+     z-index: 1;
+}
+
+.shop-content-container {
+     width: 1601px;
+     height: 873px;
+     position: absolute;
+     top: 148px;
+     left: 154px;
+}
+
+.heading-title {
+     font-family: "Montserrat medium bold";
+     font-size: 70px;
+     line-height: 84px;
+     letter-spacing: 0.5px;
+}
+
+
+.stroke-text {
+     color: transparent;
+     -webkit-text-stroke: 1px #ffffff;
+}
+
+.view-all {
+     margin-top: 40px;
+     color: black;
+     font-family: "inter bold";
+     width: 168px;
+     height: 52px;
+     background: #ffffff;
+     padding: 16px, 32px, 16px, 32px;
+     border-radius: 12px;
+     gap: 12px;
+     position: absolute;
+     z-index: 2;
+}
+
+.view-all:hover {
+     color: white;
+     background: linear-gradient(180deg, #ee383e 0%, #EF5256 100%);
+}
+
+.photo-content {
+     height: full;
+     margin-top: 30px;
+     z-index: 3;
+     background-color: blue;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     /* grid-template-rows: 20px 20px 20px 20px; */
+}
+
+.bag {
+     position: absolute;
+     top: 341px;
+}
+
+.bag-image {
+     position: relative;
+     width: 371px;
+     height: 531px;
+     object-fit: cover;
+     z-index: 2;
+     border-radius: 12px;
+     background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+          url('../../assets/img/img\ \(3\).jpeg');
+     background-size: cover;
+     background-position: center;
+}
+
+.caps-books {
+     position: absolute;
+     width: 442px;
+     left: 399px;
+     top: 278px;
+}
+
+.caps-image {
+     width: 424px;
+     height: 282px;
+     object-fit: cover;
+     z-index: 2;
+     margin-bottom: 30px;
+     border-radius: 12px;
+     background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+          url('../../assets/img/img\ \(7\).png');
+     background-size: cover;
+     background-position: center;
+}
+
+.books-image {
+     width: 424px;
+     height: 282px;
+     object-fit: cover;
+     z-index: 2;
+     border-radius: 12px;
+     background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+          url('../../assets/img/img\ \(2\).png');
+     background-size: cover;
+     background-position: center;
+}
+
+.bottle-image {
+     margin-left: 44px;
+     margin-top: 175px;
+     justify-content: center;
+     /* margin-left: 20px; */
+     width: 300px;
+     height: 699px;
+     object-fit: cover;
+     z-index: 2;
+     border-radius: 12px;
+     background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+          url('../../assets/img/img\ \(8\).jpeg');
+     background-size: cover;
+     background-position: center;
+}
+
+.t-shirt-one {
+     position: absolute;
+     right: 0px;
+     width: 424px;
+     height: 424px;
+     object-fit: cover;
+     z-index: 2;
+     border-radius: 12px;
+     background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+          url('../../assets/img/img\ \(2\).jpeg');
+     background-size: cover;
+     background-position: center;
+}
+
+.t-shirt-two {
+     margin-top: 448px;
+     position: absolute;
+     right: 0px;
+     width: 424px;
+     height: 424px;
+     object-fit: cover;
+     z-index: 2;
+     border-radius: 12px;
+     background-image:
+          linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+          url('../../assets/img/img\ \(9\).jpeg');
+     background-size: cover;
+     background-position: center;
 }
