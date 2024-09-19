@@ -57,3 +57,43 @@
      left: 1724px;
      right: 156px;
 }
+
+@media (max-width: 1200px) {
+     .header-section {
+          height: 80vh;
+          /* Adjust for smaller screens */
+     }
+
+     .background-text {
+          font-size: 18vw;
+          top: 30vh;
+          left: 5vw;
+          width: 80vw;
+     }
+}
+
+@media (max-width: 768px) {
+     .header-section {
+          height: 60vh;
+     }
+
+     .background-text {
+          font-size: 26vw;
+          top: 25vh;
+          left: 3vw;
+          width: 85vw;
+     }
+}
+
+@media (max-width: 480px) {
+     .header-section {
+          height: 100vh;
+     }
+
+     .background-text {
+          font-size: 50px;
+          top: 40vh;
+          left: 20vw;
+          width: 90vw;
+     }
+}

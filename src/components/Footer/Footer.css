@@ -1,0 +1,43 @@
+.footer-section {
+     width: 1920px;
+     height: 748px;
+     background-color: black;
+     padding-top: 48px;
+     padding-left: 148px;
+}
+
+.footer-content {
+     width: 1620px;
+     height: 656px;
+}
+
+.footer-logo {
+     filter: invert(19%) sepia(67%) saturate(5272%) hue-rotate(348deg) brightness(93%) contrast(96%);
+     width: 115px;
+     height: 115px;
+     padding-top: 9.5px;
+     padding-bottom: 9.5px;
+     padding-right: 10px;
+     padding-left: 10px;
+     margin-top: 7px;
+}
+
+.footer-heading {
+     color: white;
+     justify-content: center;
+     align-items: center;
+     font-family: "Montserrat bold", sans-serif;
+     letter-spacing: 12px;
+     line-height: 134.4px;
+     font-size: 100px;
+     font-weight: 800;
+}
+
+hr {
+     opacity: 70%;
+}
+
+.footer-column {
+     /* width: 148px; */
+     /* height: 312px; */
+}
