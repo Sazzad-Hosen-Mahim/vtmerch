@@ -4,6 +4,10 @@ import { FaShippingFast } from "react-icons/fa";
 import { GiCardExchange } from "react-icons/gi";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { FaMoneyCheckDollar } from "react-icons/fa6";
+import shippingFast from "../../assets/Icon/delivery.svg";
+import exchange from "../../assets/Icon/exchange.svg";
+import support from "../../assets/Icon/customer-support 1.svg";
+import payment from "../../assets/Icon/verified.svg";
 
 const ServiceSection = () => {
   return (
@@ -11,7 +15,7 @@ const ServiceSection = () => {
       <div className="service-section-container grid grid-cols-4">
         <div className="shipping text-white flex flex-col mr-[93px]">
           <p className="mb-6">
-            <FaShippingFast className="w-[40px] h-[40px]" />
+            <img className="w-[40px] h-[40px]" src={shippingFast} alt="" />
           </p>
           <h1
             style={{ fontFamily: "Montserrat bold" }}
@@ -25,7 +29,7 @@ const ServiceSection = () => {
         </div>
         <div className="shipping text-white flex flex-col mr-[93px]">
           <p className="mb-6">
-            <GiCardExchange className="w-[40px] h-[40px]" />
+            <img className="w-[40px] h-[40px]" src={exchange} alt="" />
           </p>
           <h1
             style={{ fontFamily: "Montserrat bold" }}
@@ -39,7 +43,7 @@ const ServiceSection = () => {
         </div>
         <div className="shipping text-white flex flex-col mr-[93px]">
           <p className="mb-6">
-            <TfiHeadphoneAlt className="w-[40px] h-[40px]" />
+            <img className="w-[40px] h-[40px]" src={support} alt="" />
           </p>
           <h1
             style={{ fontFamily: "Montserrat bold" }}
@@ -53,7 +57,7 @@ const ServiceSection = () => {
         </div>
         <div className="shipping text-white flex flex-col mr-[93px]">
           <p className="mb-6">
-            <FaMoneyCheckDollar className="w-[40px] h-[40px]" />
+            <img className="w-[40px] h-[40px]" src={payment} alt="" />
           </p>
           <h1
             style={{ fontFamily: "Montserrat bold" }}
