@@ -1,9 +1,5 @@
 import React from "react";
 import "./ServiceSection.css";
-import { FaShippingFast } from "react-icons/fa";
-import { GiCardExchange } from "react-icons/gi";
-import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { FaMoneyCheckDollar } from "react-icons/fa6";
 import shippingFast from "../../assets/Icon/delivery.svg";
 import exchange from "../../assets/Icon/exchange.svg";
 import support from "../../assets/Icon/customer-support 1.svg";

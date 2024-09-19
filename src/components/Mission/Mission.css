@@ -6,8 +6,6 @@
 
 }
 
-.mission-text-container {}
-
 .quotes-image {
      position: absolute;
      top: 54px;
@@ -26,8 +24,6 @@
      top: 204px;
      left: 150px;
 }
-
-.mission-image-container {}
 
 .mission-image {
      position: absolute;

@@ -14,7 +14,6 @@
 
 .article-container {
      padding-top: 22px;
-     /* position: absolute; */
 
 }
 
@@ -60,10 +59,6 @@
      color: white;
      background: linear-gradient(180deg, #ee383e 0%, #EF5256 100%);
 }
-
-/* .signature {
-    
-} */
 
 .signature-image-container {
      width: 798px;

@@ -28,7 +28,7 @@ const Future = () => {
           </div>
         </div>
         <div className="future-image-card">
-          <img className="future-image" src={purpleImgae} alt="" />
+          <img className="future-image image-one" src={purpleImgae} alt="" />
           <div>
             <h1 className="font-['inter'] font-bold mb-1">
               FLB Shirt - Purple

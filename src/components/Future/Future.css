@@ -55,4 +55,9 @@
      height: 496px;
      border-radius: 12px;
      margin-bottom: 24px;
+     transition: transform 0.4s ease-in-out;
+}
+
+.future-image:hover {
+     transform: translateY(-30px);
 }
