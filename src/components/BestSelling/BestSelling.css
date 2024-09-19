@@ -1,21 +1,21 @@
 .best-selling-section {
-     height: 877px;
-     width: 1920px;
+     height: 54.8125rem;
+     width: 120rem;
      background: #F6F5F5;
 }
 
 .best-selling-content {
-     width: 1618px;
-     height: 674px;
-     top: 101px;
-     left: 148px;
+     width: 101.125rem;
+     height: 42.125rem;
+     top: 6.3125rem;
+     left: 9.25rem;
 }
 
 .paragraph {
+     color: black;
      font-family: "Montserrat medium bold";
-     font-weight: 600;
-     font-size: 70px;
-     line-height: 84px;
+     font-size: 4.375rem;
+     line-height: 5.25rem;
      letter-spacing: 0.5px;
 }
 
@@ -26,6 +26,113 @@
 }
 
 .best-selling-card-container {
-     padding-top: 20px;
+     padding-top: 1.25rem;
+}
+
+/* for laptop */
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+     .best-selling-section {
+          /* height: 54.8125rem; */
+          height: 100vw;
+          width: 100%;
+          background: #F6F5F5;
+     }
+
+     .best-selling-content {
+          width: 101.125rem;
+          height: 32.125rem;
+          top: 2.3125rem;
+          left: 2.25rem;
+     }
+
+     .paragraph {
+          font-family: "Montserrat medium bold";
+          font-size: 3rem;
+          line-height: 4rem;
+          letter-spacing: 0.5px;
+          color: black;
+     }
+
+     .transparent-text {
+          font-family: "Montserrat medium bold", sans-serif;
+          color: transparent;
+          -webkit-text-stroke: 1px #222222;
+     }
+
+     .best-selling-card-container {
+          padding-top: 1rem;
+     }
+}
+
+/* for tablet  */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+     .best-selling-section {
+          /* height: 54.8125rem; */
+          /* height: 80vw; */
+          width: 100%;
+          background: #F6F5F5;
+     }
+
+     .best-selling-content {
+          width: 91.125rem;
+          height: 25.125rem;
+          top: 2rem;
+          left: 2.25rem;
+     }
+
+     .paragraph {
+          font-family: "Montserrat medium bold";
+          font-size: 2.2rem;
+          line-height: 3rem;
+          letter-spacing: 0.5px;
+          color: black;
+     }
+
+     .transparent-text {
+          font-family: "Montserrat medium bold", sans-serif;
+          color: transparent;
+          -webkit-text-stroke: 1px #222222;
+     }
+
+     .best-selling-card-container {
+          padding-top: 1rem;
+     }
+
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 767px) {
+     .best-selling-section {
+          /* height: 44.8125rem; */
+          height: 135vw;
+          width: 100%;
+          background: #F6F5F5;
+     }
+
+     .best-selling-content {
+          width: 51.125rem;
+          height: 50rem;
+          top: 2rem;
+          left: 0.5rem;
+     }
+
+     .paragraph {
+          font-family: "Montserrat medium bold";
+          font-size: 1.2rem;
+          line-height: 1.7rem;
+          letter-spacing: 0.5px;
+          color: black;
+     }
+
+     .transparent-text {
+          font-family: "Montserrat medium bold", sans-serif;
+          color: transparent;
+          -webkit-text-stroke: 1px #222222;
+     }
+
+     .best-selling-card-container {
+          padding-top: 0.3rem;
+     }
 
 }

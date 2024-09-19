@@ -85,7 +85,7 @@
 
      .image-container {
           object-fit: cover;
-          height: 240px;
+          height: 220px;
           width: 100%;
      }
 
@@ -139,15 +139,10 @@
 
 /* for mobile */
 @media only screen and (max-width: 767px) {
-     * {
-          overflow-x: hidden;
-     }
+
 
      /* Styles for mobile screens */
-     body {
-          width: 100%;
-          /* overflow: hidden; */
-     }
+
 
      .card-container {
           padding-top: 30px;
@@ -160,7 +155,7 @@
      }
 
      .each-card {
-          height: 230px;
+          height: 220px;
           width: 160px;
           transition: box-shadow 0.4s ease;
           transition: transform 0.4s ease-out;
@@ -170,12 +165,12 @@
 
      .image-container {
           object-fit: contain;
-          height: 150px;
+          height: 130px;
           width: 100%;
      }
 
      .content {
-          font-size: 12px;
+          font-size: 10px;
           margin-top: 16px;
           padding-left: 8px;
           font-family: "inter";

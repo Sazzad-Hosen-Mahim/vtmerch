@@ -8,4 +8,6 @@ module.exports = {
   daisyui: {
     themes: ["light", "dark", "cupcake"],
   },
+  mode: "jit",
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 };
