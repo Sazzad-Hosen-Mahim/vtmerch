@@ -45,9 +45,9 @@ const Card = () => {
       {data.map(({ id, img, title, pricing }) => {
         return (
           <div key={id} className="each-card">
-            <div className="image-container w-full h-[397px]">
+            <div className="image-container">
               <img
-                className="w-full h-full object-cover rounded-xl"
+                className=" h-full w-full  object-cover rounded-xl"
                 src={img}
                 alt=""
               />

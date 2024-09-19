@@ -9,7 +9,7 @@ const Header = () => {
     <div className="header-section">
       <div className="upper-section flex justify-between">
         <div className="flex left-header-content">
-          <div className="align-middle">
+          <div className="align-middle logo-container">
             <img
               className="logo filter invert text-white"
               src={LogoImage}

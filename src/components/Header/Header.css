@@ -58,42 +58,166 @@
      right: 156px;
 }
 
-@media (max-width: 1200px) {
+/* for laptop */
+@media only screen and (max-width: 1400px) and (min-width: 1024px) {
      .header-section {
-          height: 80vh;
-          /* Adjust for smaller screens */
+          height: 100vh;
+          width: 100%;
+     }
+
+     .left-header-content {
+          margin-left: 22px;
+          margin-top: 20px;
+     }
+
+     .logo {
+          width: 85px;
+          height: 85px;
+          padding-top: 9.5px;
      }
 
      .background-text {
           font-size: 18vw;
-          top: 30vh;
+          top: 50vh;
           left: 5vw;
           width: 80vw;
      }
+
+     .heading {
+          justify-content: center;
+          align-items: center;
+          font-family: "Montserrat bold", sans-serif;
+          letter-spacing: 3px;
+          line-height: 104.4px;
+          font-size: 60px;
+     }
+
+     .background-text {
+          font-size: 7vw;
+          top: 150px;
+          left: 45px;
+          width: 85vw;
+     }
+
+     .burger-icon {
+          font-size: 35px;
+          position: absolute;
+          top: 48px;
+          left: 930px;
+     }
+
 }
 
-@media (max-width: 768px) {
+/* for tablet */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+     /* * {
+          overflow-x: hidden;
+     } */
+
      .header-section {
-          height: 60vh;
+          height: 115vh;
+          width: 100%;
+     }
+
+     .left-header-content {
+          margin-left: 22px;
+          margin-top: 20px;
+     }
+
+     .logo {
+          width: 85px;
+          height: 85px;
+          padding-top: 9.5px;
+     }
+
+     .heading {
+          justify-content: center;
+          align-items: center;
+          font-family: "Montserrat bold", sans-serif;
+          letter-spacing: 3px;
+          line-height: 104.4px;
+          font-size: 52px;
+     }
+
+     .burger-icon {
+          font-size: 35px;
+          position: absolute;
+          top: 48px;
+          left: 830px;
+     }
+
+
+     .background-text {
+          font-size: 6vw;
+          top: 180px;
+          left: 45px;
+          width: 85vw;
+     }
+
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 767px) {
+     /* body {
+          width: 100%;
+     } */
+
+     .header-section {
+          height: 97vh;
+          width: 100vh;
      }
 
      .background-text {
           font-size: 26vw;
-          top: 25vh;
+          top: 20vh;
           left: 3vw;
           width: 85vw;
      }
-}
 
-@media (max-width: 480px) {
-     .header-section {
-          height: 100vh;
+     .logo {
+          width: 50%;
+     }
+
+     .heading {
+          position: absolute;
+          left: 70px;
+          justify-content: center;
+          font-family: "Montserrat bold";
+          font-size: 25px;
+          letter-spacing: 1px;
+          line-height: 114.4px;
      }
 
      .background-text {
-          font-size: 50px;
-          top: 40vh;
-          left: 20vw;
-          width: 90vw;
+          font-weight: 400;
+          font-size: 20px;
+          align-items: center;
+          z-index: -1;
+          position: absolute;
+          top: 80px;
+          left: 45px;
+          color: #FFFFFF;
+          opacity: 40%;
+          font-family: "Act_Of_Rejection", sans-serif;
+          white-space: nowrap;
+
      }
+
+     .left-header-content {
+          margin-left: 22px;
+          margin-top: 0px;
+          align-items: center;
+     }
+
+     .burger-icon {
+          margin-left: 230px;
+          font-size: 20px;
+          /* position: absolute; */
+          top: 45px;
+          left: 120px;
+          /* right: 156px; */
+          z-index: 2;
+     }
+
 }
